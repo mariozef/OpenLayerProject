@@ -1,0 +1,23 @@
+{
+  "name": "openlayerproject",
+  "version": "1.0.0",
+  "description": "Testowy projekt na bazie biblioteki OpenLayers (https://openlayers.org/en/latest/doc/tutorials/bundle.html)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  },
+  "keywords": [
+    "openlayers"
+  ],
+  "author": "Mariusz Golus, strona OL",
+  "license": "ISC",
+  "devDependencies": {
+    "@popperjs/core": "^2.5.4",
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "ol": "^6.4.3",
+    "parcel-bundler": "^1.12.4"
+  }
+}
